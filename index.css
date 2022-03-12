@@ -1,0 +1,158 @@
+*{
+    background-color: whitesmoke;
+    color: black;
+    margin: 0 auto;
+    padding: 0.3rem;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin-right: 10rem;
+    font-style: italic;
+    color: brown;
+}
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+}
+
+.logo-words{
+    margin-top: 0;
+    font-size: 2rem;
+    font-style: italic;
+    border: 0.5px dotted black;
+}
+hr{
+  margin: 0;
+  padding: 0;
+}
+.barnner{
+    background-image: url(images/img10.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 35rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    opacity: 0.8;
+}
+.barnner-words{
+    background-color: white;
+    font-size: 2.5rem;
+    opacity: 1;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+  
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin-right: 3rem;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%; 
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;    
+    margin-right: 15rem;
+}
+.image9{
+    margin-right: 7rem;
+}
+p{
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.copyright{
+    margin-top: 8rem;
+    
+}
+.hotline, .number{
+    font-size: large;
+    color: red;
+    font-size: 2rem;
+    
+}
+.hotline-no{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.about-words{
+    text-align: justify;
+    width: 60%;
+    margin-bottom: 6.2rem;
+}
+.about-heading{
+    margin-top: 2rem;
+    text-align: center;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.img{
+    margin-bottom: 1rem;
+    width: 60%;
+    height: 20%;
+    border: 2px solid black;
+}
+.info-words{
+    margin-bottom: 1rem;
+}
